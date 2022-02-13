@@ -1,49 +1,16 @@
 # macOS Dictionary.app retriever for Anki
 
-### ⚡️ Create your English-English Anki flashcards from Oxford Dictionary on macOS
-  
-This code can process plain texts that *Automator "Get Definition of Word" action* retrieves from **Oxford Dictionary of English** or **New Oxford American Dictionary**.
+The work is inspired by [Choe's Work](https://github.com/seungwoochoe/macOS-Dictionary-retriever-for-Anki).
 
-## Features
-- No internet connection is needed.
-- This makes word-definition sets ready to be imported into Anki. Just save created text and import it.
-- There are several options that you can choose from. Check out the options in main.js.
-- You can prune extra information like *ORIGIN* of the word and more specific definitions that are starting with "•".
-- You can italicize and change font color of labels (e.g. *[with object], archaic, mainly British, North American, Biology*) and example sentences.  
-- You can replace words from the example sentences with underscores (______).
+# How to use
 
+![1](figure/1.jpeg)
 
-## Images
-<img src="https://github.com/SeungwooChoe/macOS-system-dictionary-retriever/blob/main/images/1.png" width="250">  
-Select a word and press a shortcut you registered.
-<br/>
-<br/>
-<img src="https://github.com/SeungwooChoe/macOS-system-dictionary-retriever/blob/main/images/2.png" width="650">  
-Then a processed text will be automatically written on an opened (or new) text file. You can add more word-definition sets.
-<br/>
-<br/>
-<img src="https://github.com/SeungwooChoe/macOS-system-dictionary-retriever/blob/main/images/3.png" width="650">  
-Import the saved text file into Anki. This is what cards will look like after being imported.
-<br/>
-<br/>
-  
-## Limitations
-- Cannot hide most of past and past participle forms of irregular verbs.
-- Cannot be used for open compound words like *ice cream*.
-- Cannot be used for phrases and phrasal verbs.
-- Cannot get second+ definitions of homonym words. (Cannot get definition of *bat2*.)
-- Formatting is not perfect in a few cases.
-<br/>
+Step 1: Right click on the word and choose "Dict to Anki" from the menu.
 
-## Quick Action example (check *[Releases](https://github.com/SeungwooChoe/English-Anki-flashcard-maker/releases)* if you want to use pre-made Quick Action)
-  
-Automator - new Quick Action  
-  
-<img src="https://github.com/SeungwooChoe/macOS-system-dictionary-retriever/blob/main/images/4.png" width="750">  
-  
-Save
-  
-Then assign a shortcut to this Quick Action (.workflow).
-  
-## Usage tip
-Run Quick Action after opening a TextEdit file and hiding or minimizing it to the dock. Then it will not pop up every time you run Quick Action.
+![2](figure/2.png)
+
+Step 2: The word will be added to the Anki deck automatically.
+# How to install
+
+TODO

@@ -22,7 +22,7 @@ function run(input, parameters) {
 	const word = getWord(wholeText);
 	const definition = getDefinition(word, wholeText);
 
-	return getResult(word, definition);
+	return word + " " + definition;
 }
 
 
@@ -187,7 +187,7 @@ const italicizeLabels = (text) => {
 }
 
 const changeItalicizedTextColorToDarkgrey = (text) => {
-	text = text.replaceAll('<i>', `<span style="color:${exampleSentencesFontColor}"><i>`);
+	text = text.replaceAll('<i>', `<span style=\\"color:${exampleSentencesFontColor}\\"><i>`);
 	text = text.replaceAll('</i>', '</i></span>');
 	return text;
 }
